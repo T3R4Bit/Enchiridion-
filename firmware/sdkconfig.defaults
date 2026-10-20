@@ -1,0 +1,13 @@
+# Enchiridion firmware defaults — ESP32-S3-WROOM-1-N16R8
+CONFIG_IDF_TARGET="esp32s3"
+
+# 16 MB flash
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+
+# Octal SPI PSRAM (the "R8" part) — required or the 8 MB PSRAM won't init
+CONFIG_ESP32S3_SPIRAM_SUPPORT=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y
+
+# Native USB (TinyUSB / USB-OTG) for the data port
+CONFIG_TINYUSB=y

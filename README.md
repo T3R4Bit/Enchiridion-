@@ -36,6 +36,12 @@ permitted to test, and in accordance with local RF regulations (e.g. FCC Part
 Full bill of materials, rationale, and the GPIO pin-mapping schedule live in
 [`docs/project_blueprint.md`](docs/project_blueprint.md).
 
+> ⚠️ The original blueprint has several hardware issues (no 3.3 V regulator,
+> wrong USB connector role, unbudgeted pins). See
+> [`docs/design-review.md`](docs/design-review.md) for the teardown and the
+> **corrected pin map**, and [`docs/roadmap.md`](docs/roadmap.md) for the
+> build plan. `firmware/main/board_pins.h` already reflects the corrected map.
+
 ## Repository layout
 
 ```
