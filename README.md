@@ -76,5 +76,13 @@ progress — see `docs/project_blueprint.md` for the target architecture.
 
 ## License
 
-No license chosen yet. Until a `LICENSE` file is added, all rights are
-reserved by the author.
+Enchiridion is **source-available**, dual-licensed:
+
+- **Noncommercial use is free** under the
+  [PolyForm Noncommercial License 1.0.0](LICENSE) — personal, hobby, research,
+  educational, and noncommercial-organization use.
+- **Commercial use requires a separate paid license** from the copyright
+  holder. See [`LICENSING.md`](LICENSING.md) for how to arrange one.
+
+Note: this is *source-available*, not "open source" in the strict OSI sense,
+because it restricts commercial use.
