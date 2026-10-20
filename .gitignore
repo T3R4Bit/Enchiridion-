@@ -1,0 +1,40 @@
+# ---- ESP-IDF / firmware build ----
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+firmware/dependencies.lock
+*.pyc
+__pycache__/
+
+# ---- KiCad ----
+# Keep schematics, PCBs, symbol/footprint libs, and project files.
+# Ignore autosave, backups, and generated outputs.
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+fp-info-cache
+*.net
+# Generated fabrication/assembly outputs
+hardware/gerbers/
+hardware/jlcpcb/
+hardware/production/
+*.drl
+*.gbr
+*.gbrjob
+
+# ---- Fusion 360 / CAD ----
+# Keep source .f3d and released .step; ignore local backups/exports.
+enclosure/backups/
+*.f3d.bak
+*.stl
+*.3mf
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
